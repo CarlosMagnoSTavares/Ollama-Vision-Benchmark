@@ -1,0 +1,21 @@
+﻿```markdown
+# Receita de Servi├ºo Energia TENSIO / BANCA RESIDENCIAL
+
+**M├úe: RICARDO MONEDA**
+NOME DO ACESS├üRIO ENERGIA / CONSERVADOR DE ELETRO: 10824936-5
+CARTA PRA CANCELAMENTO ENERGIA TENSIO | BANCA RESIDENCIAL 
+**Carteira de Atendimento**
+**Carta PRA CANCALAMENTO ENERGIA / CONSERVADOR DE ELETRO: 10824936-5**
+Acesso a uma conta de energia residencial
+Contato pela Energia TENSIO | BANCA RESIDENCIAL 
+**CARTA DE ATENDIMENTO**
+**Carteira de Atendimento ENERGIA / CONSERVADOR DE ELETRO: 10824936-5**
+
+# Informa├º├Áes
+
+## Sede
+Sede
+Roteiro: N┬░ NP - ONSISL 059.376 
+16/000199862
+C├│digo de Conta: ENERGIA / CONSERVADOR DE ELETRO
+
