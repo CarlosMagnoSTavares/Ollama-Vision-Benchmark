@@ -9,6 +9,12 @@ for model in $models; do
     echo "Processing model: $model"
     outputFile="result_${model//:/\_}.comprovante.jpg.md"
     
+    # Check if output file already exists
+    if [ -f "$outputFile" ]; then
+        echo "Output file $outputFile already exists. Skipping model $model."
+        continue
+    fi
+    
     # Run the model with the prompt and save output
     command="ollama run $model \"Analyze this file and extract the document content to a markdown text file. Provide only the final result without explanations or unnecessary text $(realpath ./comprovante.jpg)\""
     

@@ -97,9 +97,12 @@ chmod +x run_models.sh
 
 1. The script lists all models available in your Ollama installation
 2. For each model, it:
+   - Checks if a result file already exists for the model (skips if it does)
    - Runs the model with a prompt to analyze the image
    - Saves the output to a file named `result_[model_name].comprovante.jpg.md`
    - Adds a brief delay between models to avoid system overload
+
+This allows you to run the script multiple times and only process models that haven't been processed yet, such as when adding new models to your Ollama installation.
 
 ## Customization
 

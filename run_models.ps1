@@ -7,6 +7,12 @@ foreach ($model in $models) {
     Write-Host "Processing model: $model"
     $outputFile = "result_$($model.Replace(':', '_')).comprovante.jpg.md"
     
+    # Check if output file already exists
+    if (Test-Path $outputFile) {
+        Write-Host "Output file $outputFile already exists. Skipping model $model."
+        continue
+    }
+    
     try {
         # Run the model with the prompt and save output
        $command = "ollama run $model ""Analyze this file and extract the document content to a markdown text file. Provide only the final result without explanations or unnecessary text $(Resolve-Path ./comprovante.jpg)"""
